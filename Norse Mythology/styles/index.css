@@ -30,7 +30,7 @@ body{
     font-size: 2em;
 }
 #linkLogout{
-    display: none;
+    display: block;
 }
 #linkLogout > a{
     color: #4cff00 !important;

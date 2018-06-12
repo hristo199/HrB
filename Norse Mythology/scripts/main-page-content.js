@@ -235,12 +235,12 @@ function showListPostsView() {
                         .append($("<br>"))
                         .append($("<br>"))
                         .append($("<a>", { class: 'postUrl', href: book.ArticleUrl, target: "_blank"}).text("Read more..."))
-                        .append($('<span style="float: right; font-family: Alsandra">').text("Delete..."))
+                       
                     );
 
                 $('#post-title')
                     .append($('<span class="alsandra"></span>').text(bookTitle))
-                    .append($("<a class='read-more' data-toggle='tooltip' title='read more :)'>").text(" [...]"))
+                    .append($("<a class='read-more' data-toggle='tooltip' title='read :)'>").text(""))
                     .append($("<br>"))
                     .append($("<br>"));
             }
