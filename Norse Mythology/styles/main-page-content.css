@@ -1,3 +1,6 @@
+.broki{
+	background:red !important;
+}
 #main {
     transition: margin-left .5s;
     padding: 20px;
@@ -36,7 +39,7 @@
 }
 #linkListPosts{
     text-decoration: none;
-    color:#a7ceb9;
+    color:#50dc91;
 	float:none;
 	padding:20px;
 }
