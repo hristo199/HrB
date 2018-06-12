@@ -221,6 +221,7 @@ function showListPostsView() {
     function postsLoaded(data, status) {
         let counter = 0;
         if(!appended && sessionStorage.authToken != null){
+            data.reverse();
             for(let book of data) {
                 counter++;
                 let bookTitle = book.Title.substring(0, 50);
