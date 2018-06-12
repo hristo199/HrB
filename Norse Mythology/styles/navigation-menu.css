@@ -35,9 +35,11 @@
     color: red;
     font-size: 2em;
     text-decoration: none;
-	float: left;
-    padding:40px;
-	margin-left:40px;
+	float:none;
+	display:block;
+    padding:10px;
+	text-align:center;
+	margin-left:10px;
 }
 .page-navigation>a:hover{
     color: blue;

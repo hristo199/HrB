@@ -47,18 +47,13 @@ body{
 .soc-icons>div>a{
     margin: 20px;
 }
-
 @media (min-width: 320px){
-    #clock{
-        width: 88%;
     }
 }
 @media (min-width: 768px){
     .nav-tabs-justified>li>a {
         border-bottom: 0px !important;
-    }
-    #clock{
-        width: 22%;
+
     }
     #login-form{
         width: 40%;
@@ -77,4 +72,4 @@ body{
     #login-form{
         width: 64%;
     }
-}
+	

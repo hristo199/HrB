@@ -37,7 +37,7 @@
 #linkListPosts{
     text-decoration: none;
     color:#a7ceb9;
-	float:right;
+	float:none;
 	padding:20px;
 }
 #linkListPosts:hover{
